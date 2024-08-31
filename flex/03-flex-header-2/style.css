@@ -8,6 +8,12 @@ body {
   font-family: Besley, serif;
 }
 
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
@@ -44,5 +50,16 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  gap: 16px;
+}
+
+.left-anchor {
+  margin: 8px;
+}
+
+.right-anchor {
+  margin: 8px;
+  gap: 16px;
 }
